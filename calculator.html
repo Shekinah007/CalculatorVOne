@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset =utf-8>
+  <title> Calculator JScript 1.0</title>
+  <link href="calculator.css" rel="stylesheet" type="text/css">
+</head>
+<script src="calculator.js"></script>
+<body>
+
+  <h1> jCal 1.0 </h1>
+  <table id="console" border="2">
+
+    <tr> 
+      <td>
+      <button id="seven" onclick="numberPress(this.id)">7</button>
+    </td>
+      <td>  
+        <button id="eight" onclick="numberPress(this.id)">8</button>
+      </td>
+      <td><button id="nine" onclick="numberPress(this.id)">9</button></td>
+      <td id="addition"><button id="plus" onclick="operatorPress(this.id)"> ➕ </button></td>
+    </tr>
+    <tr> <td><button id="four" onclick="numberPress(this.id)">4</button></td>
+      <td><button id="five" onclick="numberPress(this.id)">5</button></td>
+      <td><button id="six" onclick="numberPress(this.id)">6</button></td>
+      <td id="subtraction"><button id="minus" onclick="operatorPress(this.id)"> ➖ </button></td>
+    </tr>
+
+    <tr> <td><button id="one" onclick="numberPress(this.id)">1</button></td>
+      <td><button id="two" onclick="numberPress(this.id)">2</button></td>
+      <td><button id="three" onclick="numberPress(this.id)">3</button></td>
+      <td id="division"><button id="divide" onclick="operatorPress(this.id)"> ➗ </button></td>
+    </tr>
+
+    <tr>
+      <td><button id="point" onclick="numberPress(this.id)">.</button></td>
+      <td><button id="zero" onclick="numberPress(this.id)">0</button></td>
+      <td id="equals" onclick ="equals()"><button> = </button></td>
+      <td id="multiplication"><button id="multiply" onclick ="operatorPress(this.id)"> ✖ </button></td>
+    </tr>
+
+
+    <tr>
+      <td><button id="bottom" onclick="numberPress(this.id)">❌<sup>y</sup></button></td>
+      <td><button id="bottom" onclick="numberPress(this.id)">❌<sup>2</sup></button></td>
+      <td><button id="bottom" onclick ="equals()"> Convert </button></td>
+      <td><button id="bottom" onclick ="deleteDigit()"> Delete </button></td>
+    </tr>
+       <td id="input" colspan="4" rowspan="2"> Input</td>
+     </tr>
+     <tr>
+     </tr>
+     <tr>
+       <td id="output" colspan ="4">Output</td>
+     </tr>
+
+     <tr>
+       <td id="clear" colspan="4"><button id="cancelButton" onclick="cancel()">All Clear </button></td>
+     </tr>
+
+  </table>
+
+</body>
+</html>

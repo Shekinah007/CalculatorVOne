@@ -1,0 +1,54 @@
+body {
+  background-color: black;
+  text-align: center;
+  font-weight: 400;
+  font-family:cursive;
+}
+h1 {
+  color: white;
+}
+#console {
+  background: grey;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
+}
+#input, #output {
+  height: 35px;
+  background-color: white;
+}
+#addition button,
+#subtraction button,
+#multiplication button,
+#division button,
+#equals button,
+#cancelButton
+{
+  background-color:  #babd95;
+}
+#cancelButton, #deleteDigit {
+  width: 260px;
+  height: 35px;
+}
+button {
+  width: 60px;
+  height: 50px;
+  background-color: rgb(207, 211, 213);
+}
+
+table {
+  border-radius: 0px;
+}
+
+#bottom {
+  background-color: #babd95;
+  height: 25px;
+}
+
+#input {
+  color: blue;
+}
+#output {
+  color: green;
+}
