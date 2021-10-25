@@ -103,11 +103,11 @@ function equals() {
 
 // Function clears both displays and resets all variables
 function cancel() {
-  secondNumber = "";
-  firstNumber;
-  input = "";
-  operator;
-  output ="";
+  secondNumber = undefined;
+  firstNumber = undefined;
+  input = undefined;
+  operator = undefined;
+  output = undefined;
 
   document.getElementById("output").textContent = output;
   document.getElementById("input").textContent = input;

@@ -8,8 +8,17 @@
 <script src="calculator.js"></script>
 <body>
 
-  <h1> jCal 1.0 </h1>
+  <!-- <h1> jCal 1.0 </h1> -->
   <table id="console" border="2">
+    <td id="input" colspan="4" rowspan="2"> Input</td>
+    <tr>
+    </tr>
+    <tr>
+      <td id="output" colspan ="4" rowspan="2">Output</td>
+    </tr>
+    <tr>
+    </tr>
+   
 
     <tr> 
       <td>
@@ -44,16 +53,10 @@
     <tr>
       <td><button id="bottom" onclick="numberPress(this.id)">❌<sup>y</sup></button></td>
       <td><button id="bottom" onclick="numberPress(this.id)">❌<sup>2</sup></button></td>
-      <td><button id="bottom" onclick ="equals()"> Convert </button></td>
-      <td><button id="bottom" onclick ="deleteDigit()"> Delete </button></td>
+      <td><button id="bottom" onclick ="equals()"> Cnv </button></td>
+      <td><button id="bottom" onclick ="deleteDigit()"> Del </button></td>
     </tr>
-       <td id="input" colspan="4" rowspan="2"> Input</td>
-     </tr>
-     <tr>
-     </tr>
-     <tr>
-       <td id="output" colspan ="4">Output</td>
-     </tr>
+     
 
      <tr>
        <td id="clear" colspan="4"><button id="cancelButton" onclick="cancel()">All Clear </button></td>
